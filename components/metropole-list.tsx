@@ -242,14 +242,14 @@ export function MetropoleList({ onProductChange, onStatusUpdate }: MetropoleList
             <div>
               <CardTitle className="text-xl sm:text-2xl font-bold text-gray-900 flex items-center gap-2">
                 <Home className="h-6 w-6" />
-                Leads Shalom Consórcios
+                Leads Shalom Imobiliária
               </CardTitle>
               <CardDescription className="text-gray-600 text-sm sm:text-base">
                 Gerencie seus leads de consórcios e imóveis. Ordenado por mais recentes.
               </CardDescription>
             </div>
             <Button onClick={handleRefresh} variant="outline" size="sm" className="self-start sm:self-auto">
-              <Plus className="h-4 w-4 mr-2" />
+              <RefreshCw className="h-4 w-4 mr-2" />
               Atualizar
             </Button>
           </div>
